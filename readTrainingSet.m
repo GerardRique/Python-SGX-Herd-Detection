@@ -46,7 +46,7 @@ X = sortrows(X, 1);
 
 csvwrite("matrix.csv", X);
 X = X(:,2:end);
-X = X(41:50,:);
+X = X(31:50,:);
 
 m = rows(X)
 n = columns(X)
